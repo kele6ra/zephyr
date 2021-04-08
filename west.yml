@@ -174,11 +174,17 @@ manifest:
     - name: net-tools
       revision: f49bd1354616fae4093bf36e5eaee43c51a55127
       path: tools/net-tools
+<<<<<<< HEAD
       groups:
         - tools
     - name: nrf_hw_models
       revision: a47e326ca772ddd14cc3b9d4ca30a9ab44ecca16
       path: modules/bsim_hw_models/nrf_hw_models
+=======
+    - name: hal_nxp
+      revision: pull/87/head
+      path: modules/hal/nxp
+>>>>>>> 87f228be79... driver: add adc driver support fot NXP RT series
     - name: open-amp
       revision: 6010f0523cbc75f551d9256cf782f173177acdef
       path: modules/lib/open-amp
